@@ -1,0 +1,14 @@
+{
+  "name": "superhubrestart",
+  "version": "1.0.0",
+  "description": "restarts virgin media super hub",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Enbites Codelab",
+  "license": "ISC",
+  "dependencies": {
+    "nightmare": "^2.9.1"
+  }
+}
