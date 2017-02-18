@@ -1,9 +1,10 @@
 var Nightmare = require('nightmare');
 var nightmare = Nightmare();
+var superHubPwd = process.env.SUPERHUB_PWD;
 
 nightmare
   .goto('http://192.168.0.1')
-  .type('#password', 'xxxx')
+  .type('#password', superHubPwd)
   .click('.newCta')
   .wait(500)
   .wait('#advancedSettings')
