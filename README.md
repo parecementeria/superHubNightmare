@@ -12,5 +12,5 @@ Then simply:
 
 ```
 $ npm i
-$ npm run start
+$ export SUPERHUB_PWD='yourpass' && npm run start
 ```
